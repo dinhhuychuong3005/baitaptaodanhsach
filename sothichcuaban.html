@@ -4,22 +4,63 @@
     <meta charset="UTF-8">
     <title>SỞ THÍCH CỦA BẠN</title>
     <style>
-        h1 {background-color: chocolate}
-        h1 {text-align: center}
-p {margin: 50px}
+        h1 {
+            background-color: red
+        }
+
+        h1 {
+            text-align: center
+        }
+
+        body {
+            padding: 200px;
+        }
+
+        b, b {
+            -webkit-text-fill-color: cornflowerblue
+        }
     </style>
 </head>
 <body>
-<form>
-    <h1>SỞ THÍCH CỦA BẠN</h1>
-     Your name
-        <input type="text" name="Yourname" ><br>
-   <li> Email
-       <input type="text" name="email" ><br></li>
-    Hobby
-    <input type="text" name="hobby"><br>
+<h1>SỞ THÍCH CỦA BẠN</h1>
+<form >
+    <table style="color: red">
+        <tr>
+            <td><b>Your name</b></td>
+            <td>
+                <input type="text" name="Yourname" size="30"/>
+            </td>
+        </tr>
+        <tr>
+            <td><b> Email</b></td>
+                <td><input type="text" name="Email" size="20"/></td>
+        </tr>
+        <tr>
+            <td><b>Hobby</b></td>
 
+            <td><label><input name="Hobby" value="sport" type="checkbox"/> Thể thao</label>
+            <label><input name="Hobby" value="Music" type="checkbox"/> Âm nhạc</label>
+            <label><input name="Hobby" value="Reading books" type="checkbox"/> Đọc sách</label></td><br><br>
+        </tr>
+        <tr>
+            <td></td>
+        <td><label><input name="Hobby" value="Wep" type="checkbox"/> wep</label>
+            <label><input name="Hobby" value="Game" type="checkbox"/> game</label>
+            <label><input name="Hobby" value="Điện ảnh" type="checkbox"/> Điện ảnh</label></td></tr>
+        <br>
 
+        <tr>
+            <td></td>
+            <td><label><input name="Hobby" value="Du lịch" type="checkbox"/> du lịch</label></td></tr><br>
+        <tr>
+            <td></td>
+            <td><button>
+            Gửi thông tin
+            </button>
+        <button>
+            Nhập lại
+        </button></td>
+    </table>
 </form>
 </body>
 </html>
